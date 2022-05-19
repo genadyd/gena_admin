@@ -1,0 +1,223 @@
+#content_container #category_form_container {
+  display: none;
+}
+
+#content_container #category_form_container #list_open_close_button {
+  border: solid 1px #ED7117;
+  color: #ED7117;
+  line-height: 14px;
+}
+
+#content_container #category_form_container #list_open_close_button:hover {
+  color: #fff;
+  background-color: #ED7117;
+}
+
+#content_container #category_form_container .category_data .input_block .error_alert {
+  display: none;
+  height: auto;
+  width: auto;
+  box-shadow: 0 3px 8px 0px #00000096;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  transform: translateY(3px);
+  color: #ED7117;
+  text-align: center;
+  padding: 1em 2em;
+  visibility: hidden;
+}
+
+#content_container #category_form_container .category_data .input_block.error > .form-control {
+  border-color: #ED7117;
+}
+
+#content_container #category_form_container .category_data .input_block.error .error_alert {
+  display: block;
+  visibility: visible;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .remove_field,
+#content_container #category_form_container .catTextFieldsContainer .text_open_close {
+  display: none;
+  cursor: pointer;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .remove_field:hover,
+#content_container #category_form_container .catTextFieldsContainer .text_open_close:hover {
+  color: #ED7117;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .added {
+  overflow: hidden;
+  transition: max-height .5s ease-in;
+  max-height: 1000px;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .added .remove_field,
+#content_container #category_form_container .catTextFieldsContainer .added .text_open_close {
+  display: block;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .added .body {
+  max-height: 700px;
+  transition: max-height 0.25s;
+  overflow: hidden;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .added .body.colapsed {
+  max-height: 0;
+}
+
+#content_container #category_form_container .catTextFieldsContainer .added.hidden {
+  max-height: 0;
+}
+
+#content_container #category_form_container #category_form_submit {
+  background-color: #ED7117;
+  color: #fff;
+}
+
+#content_container #categories_control_panel #per_page {
+  width: 34%;
+}
+
+#content_container #categories_control_panel #categories_search_button {
+  cursor: pointer;
+}
+
+#content_container #categories_control_panel .btn-outline {
+  border: solid 1px #ED7117;
+  color: #ED7117;
+  line-height: 14px;
+}
+
+#content_container #categories_control_panel .btn-outline:hover {
+  background-color: #ED7117;
+  color: #fff;
+}
+
+#content_container #categories_list_container {
+  display: none;
+}
+
+#content_container #categories_list_container .modal {
+  z-index: 99999;
+}
+
+#content_container #categories_list_container table {
+  font-size: 14px;
+}
+
+#content_container #categories_list_container table thead th .sort_icon {
+  color: #ED7117;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+#content_container #categories_list_container table thead th.item_id_heading {
+  text-align: center;
+}
+
+#content_container #categories_list_container table thead .controls_th {
+  width: 10%;
+}
+
+#content_container #categories_list_container table tbody tr {
+  border-top: 1px solid #dee2e6;
+  position: relative;
+}
+
+#content_container #categories_list_container table tbody tr.deleted {
+  background: #636b6f;
+  color: #fff;
+}
+
+#content_container #categories_list_container table tbody tr.deleted td.cat_controls .material-icons {
+  line-height: 1;
+  color: #fff;
+}
+
+#content_container #categories_list_container table tbody tr.new {
+  background-color: #128fce;
+  color: #fff;
+}
+
+#content_container #categories_list_container table tbody tr.new td.cat_controls .material-icons {
+  line-height: 1;
+  color: #fff;
+}
+
+#content_container #categories_list_container table tbody tr td {
+  border-top: none;
+}
+
+#content_container #categories_list_container table tbody tr td .finded {
+  background-color: #ED7117;
+  color: #fff;
+}
+
+#content_container #categories_list_container table tbody tr td.item_num {
+  width: 3%;
+}
+
+#content_container #categories_list_container table tbody tr td.item_id {
+  width: 5%;
+  text-align: center;
+}
+
+#content_container #categories_list_container table tbody tr td.item_name {
+  width: 25%;
+}
+
+#content_container #categories_list_container table tbody tr td.item_heading {
+  width: 35%;
+}
+
+#content_container #categories_list_container table tbody tr td.cat_controls button {
+  line-height: 1;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#content_container #categories_list_container table tbody tr td.cat_controls .material-icons {
+  line-height: 1;
+  cursor: pointer;
+}
+
+#content_container #categories_list_container .pagination .current {
+  background: #bebebe;
+}
+
+#content_container #categories_list_container .pagination .current a {
+  color: #ED7117;
+}
+
+#content_container #form_open_close:checked ~ #category_form_container {
+  display: block;
+}
+
+#content_container #form_open_close:checked ~ #content_switcher [for=form_open_close] {
+  color: #636b6f;
+}
+
+#content_container #list_open_close:checked ~ #categories_list_container {
+  display: block;
+}
+
+#content_container #list_open_close:checked ~ #content_switcher [for=list_open_close] {
+  color: #636b6f;
+}
+
+#content_container #content_switcher .switch {
+  color: #ED7117;
+  cursor: pointer;
+}
+
+#content_container #content_switcher .switch:hover {
+  opacity: .6;
+}
+
